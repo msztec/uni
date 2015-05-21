@@ -1,14 +1,17 @@
-package com.ptc.training.mvc.facade;
+package pl.com.tt.facade;
 
-import com.ptc.training.mvc.domain.Address;
-import com.ptc.training.mvc.domain.Car;
-import com.ptc.training.mvc.domain.Person;
+
+import org.springframework.stereotype.Service;
+import pl.com.tt.domain.Address;
+import pl.com.tt.domain.Car;
+import pl.com.tt.domain.Person;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+@Service
 public class PersonFacadeImpl implements PersonFacade {
 
 	private List<Person> persons;

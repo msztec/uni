@@ -1,9 +1,11 @@
-package com.ptc.training.mvc.facade;
+package pl.com.tt.facade;
 
-import com.ptc.training.mvc.domain.Car;
-import com.ptc.training.mvc.domain.Person;
+import pl.com.tt.domain.Car;
+import pl.com.tt.domain.Person;
 
 import java.util.List;
+
+
 
 public interface PersonFacade {
 

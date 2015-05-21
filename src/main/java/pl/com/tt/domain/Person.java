@@ -1,4 +1,4 @@
-package com.ptc.training.mvc.domain;
+package pl.com.tt.domain;
 
 public class Person {
 
